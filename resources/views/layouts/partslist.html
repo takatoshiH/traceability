@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>パーツリスト</title>
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+  <!--ナビゲーション-->
+  <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+      <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+          <li><button  class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #my-id"></button></li>
+          <li><a href="./index.html" class="uk-navbar-item uk-logo">Logo</a></li>
+        </ul>
+      </div>
+      <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+              <li><a href="./user-info.html">ユーザー情報</a></li>
+              <li><a href="#">ログアウト</a></li>
+          </ul>
+      </div>
+  </nav>
+  <div class="uk-container uk-card uk-card-default">
+    <p class="uk-text-meta">使いまわせそうなものはココにsample codeを置いていきたい。</p>
+      <!--ボタン系 ↓ここから↓-->
+      <div uk-margin>
+        <p>ボタン系いろいろと</p>
+        <!--ボタンの種類-->
+        <p>ボタンの種類
+          <a class="uk-button uk-button-default" href="#">Link</a>
+          <button class="uk-button uk-button-default">Button</button>
+          <button class="uk-button uk-button-default" disabled>Disabled</button>
+        </p>
+        <!--ボタンの色-->
+        <p>ボタンの色
+          <button class="uk-button uk-button-default">Default</button>
+          <button class="uk-button uk-button-primary">Primary</button>
+          <button class="uk-button uk-button-secondary">Secondary</button>
+          <button class="uk-button uk-button-danger">Danger</button>
+          <button class="uk-button uk-button-text">Text</button>
+          <button class="uk-button uk-button-link">Link</button>
+        </p>
+      </div>
+      <!--ボタン系 ↑ここまで↑-->
+      <!--アコーディオンメニュー ↓ここから↓-->
+      <div uk-margin>
+        <p>アコーディオンメニュー</p>
+        <ul uk-accordion="multiple: true">
+            <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Item 1</a>
+                <div class="uk-accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">Item 2</a>
+                <div class="uk-accordion-content">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">Item 3</a>
+                <div class="uk-accordion-content">
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                </div>
+            </li>
+        </ul>
+      </div>
+      <!--アコーディオンメニュー ↑ここまで↑-->
+  
+      <!--アラートメッセージ ↓ここから↓-->
+      <div uk-margin>
+        <p>アラートメッセージ</p>
+        <div uk-alert>
+            <a class="uk-alert-close" uk-close></a>
+            <h3>Notice</h3>
+            <p>×ボタンをクリックすると要素が消えます。</p>
+        </div>
+      </div>
+      <!--アラートメッセージ ↑ここまで↑-->
+  </div>
+
+
+
+</body>
+</html>

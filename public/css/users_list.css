@@ -1,0 +1,32 @@
+.main-area{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.list{
+border-collapse:collapse;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+table.list th {
+    border-bottom: 1px solid #999;
+}
+
+td.id {
+    text-align: center;
+}
+
+td.name, td.email {
+    border-left: 1px solid #999;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+td.detail {
+    border-left: 1px solid #999;
+    text-align: center;
+}
